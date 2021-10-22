@@ -48,17 +48,17 @@ p {
     align-self: center;
 }
 
-.btn {
+.nav-item {
     background-color: black;
     color: #a5b0dd;
     font-size: 5vh;
 }
 
-.btn:hover {
+.nav-item:hover {
     color: #c2b1b6;
 }
 
-.btn:focus {
+.nav-item:focus {
     color: #d4877a;
 }
 
@@ -293,6 +293,10 @@ p {
 
   .fa-folder-open:hover {
     color: darkslateblue;
+  }
+
+  .nav-tabs {
+      border: none;
   }
 
 

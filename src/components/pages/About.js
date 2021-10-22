@@ -3,10 +3,10 @@ import headshot from '../../images/portfolio-picture-921.jpeg'
 
 export default function About() {
   return (
-    <div class="container-fluid">
-    <div class="row align-items-center" id="about">
-        <div class="col-xs-12 col-md-4" id="headshot-col"><img src={headshot} alt="headshot" class="img-responsive" id="headshot"/></div>
-        <div class="col-xs-12 col-md-8">
+    <div className="container-fluid">
+    <div className="row align-items-center" id="about">
+        <div className="col-xs-12 col-md-4" id="headshot-col"><img src={headshot} alt="headshot" className="img-responsive" id="headshot"/></div>
+        <div className="col-xs-12 col-md-8">
             <p>Welcome! My name is Ashley Tate, and I’m a full-stack Web Developer with a flair for the front-end and a penchant for the back-end, 
                 committed to integrating high functionality and effective user experience. With a certificate in full-stack web development from the University of Richmond,
                 I excel in creative problem-solving and critical thinking, always eager to dive into the logic of a piece of code and dig to the bottom of every error message. 
