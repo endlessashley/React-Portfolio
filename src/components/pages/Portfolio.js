@@ -1,4 +1,5 @@
 import React from 'react';
+
 import projectPic1 from '../../images/budget-screenshot.png'
 import projectPic2 from '../../images/note-taker-screenshot.png'
 import projectPic3 from '../../images/fitness-tracker-screenshot.png'
@@ -13,9 +14,7 @@ export default function Portfolio() {
         <div className="row">
 
             
-
-
-            <div className="col-xs-12 col-md-4">
+        <div className="col-xs-12 col-md-4">
                 <div className="card">
                     <div className="card-title">Progressive Budget</div>
                     <div className="card-body">
@@ -43,7 +42,7 @@ export default function Portfolio() {
                 <div className="card">
                     <div className="card-title">Note Taker</div>
                     <div className="card-body">
-                        <div className="container"><img src={projectPic2} className="image"
+                        <div className="container"><img src={projectPic2}className="image"
                                 alt="note-taker"></img>
                             <div className="overlay">
                                 <a href="https://cryptic-earth-47562.herokuapp.com/" className="play-icon"
@@ -63,28 +62,28 @@ export default function Portfolio() {
 
             <div className="col-xs-12 col-md-4">
                 <div className="card">
-                    <div className="card-title">Fitness Tracker</div>
+                    <div class="card-title">Fitness Tracker</div>
                     <div className="card-body">
-                        <div class="container"><img src={projectPic3} className="image"
+                        <div className="container"><img src={projectPic3} className="image"
                                 alt="fitness tracker"></img>
                             <div className="overlay">
                                 <a href="https://aqueous-anchorage-97607.herokuapp.com/?id=6162f654a05bf40016ecaa95" className="play-icon"
                                     title="Heroku Deployment">
-                                    <i class="fas fa-play-circle"></i>
+                                    <i className="fas fa-play-circle"></i>
                                 </a>
                                 <a href="https://github.com/endlessashley/fitness-tracker-2" className="repo-icon"
                                     title="Github Repository">
-                                    <i class="far fa-folder-open"></i>
+                                    <i className="far fa-folder-open"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="card-text">Log your cardio and weight training workouts, and track your progress over time</div>
+                    <div className="card-text">Log your cardio and weight training workouts, and track your progress over time</div>
                 </div>
             </div>
 
-            <div className="col-xs-12 col-md-4">
-                <div className="card">
+            <div class="col-xs-12 col-md-4">
+                <div class="card">
                     <div className="card-title">CalenDon't</div>
                     <div className="card-body">
                         <div className="container"><img src={projectPic4} className="image"
@@ -148,5 +147,4 @@ export default function Portfolio() {
     </div>
 
 
-);
-}
+);}
