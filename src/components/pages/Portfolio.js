@@ -1,5 +1,4 @@
 import React from 'react';
-import Tooltip from '@material-ui/core/Tooltip';
 
 import projectPic1 from '../../images/budget-screenshot.png'
 import projectPic2 from '../../images/note-taker-screenshot.png'
