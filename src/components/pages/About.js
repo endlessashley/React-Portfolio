@@ -4,6 +4,7 @@ import headshot from '../../images/portfolio-picture-921.jpeg'
 export default function About() {
     return (
 <div className="row align-items-center" id="about">
+    
         <div className="col-xs-12 col-md-4" id="headshot-col"><img src={headshot} alt="headshot" className="img-responsive" id="headshot"/></div>
         <div className="col-xs-12 col-md-8">
             <p>Welcome! My name is Ashley Tate, and I’m a full-stack Web Developer with a flair for the front-end and a penchant for the back-end, 

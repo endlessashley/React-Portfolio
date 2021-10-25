@@ -43,7 +43,8 @@ function Contact() {
   };
 
   return (
-    <div className="row align-">
+    
+    <div className="row ">
       <p></p>
       <form className="form">
         <input
@@ -75,6 +76,7 @@ function Contact() {
         </div>
       )}
     </div>
+
   );
 }
 

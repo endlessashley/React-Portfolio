@@ -1,4 +1,5 @@
 import React from 'react';
+import Tooltip from '@material-ui/core/Tooltip';
 
 import projectPic1 from '../../images/budget-screenshot.png'
 import projectPic2 from '../../images/note-taker-screenshot.png'
@@ -11,7 +12,7 @@ export default function Portfolio() {
   return (
 
 <div className="container-fluid portfolio" id="portfolio">
-        <div className="row">
+        <div className="row align-top">
 
             
         <div className="col-xs-12 col-md-4">
@@ -29,6 +30,7 @@ export default function Portfolio() {
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
+                                <div className="used-tech">Built with Javascript, Node.js, Express.js, MongoDB, Mongoose, IndexedDB, HTML, CSS, Bootstrap</div>
                             </div>
                         </div>
                     </div>
@@ -53,6 +55,7 @@ export default function Portfolio() {
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
+                                <div className="used-tech">Built with Javascript, Node.js, Express.js, HTML, CSS, Bootstrap</div>
                             </div>
                         </div>
                     </div>
@@ -75,6 +78,7 @@ export default function Portfolio() {
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
+                                <div className="used-tech">Built with Javascript, Node.js, Express.js, MongoDB, HTML, CSS, Bootstrap</div>
                             </div>
                         </div>
                     </div>
@@ -97,6 +101,7 @@ export default function Portfolio() {
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
+                                <div className="used-tech">Built with Javascript, MySQL, Sequelize, Express.js, Handlebars, HTML, CSS, Bootstrap</div>
                             </div>
                         </div>
                     </div>
@@ -115,6 +120,7 @@ export default function Portfolio() {
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
+                                <div className="used-tech">Javascript, Node.js, Inquirer, Jest, HTML, CSS</div>
                             </div>
                         </div>
                     </div>
@@ -137,6 +143,7 @@ export default function Portfolio() {
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
+                                <div className="used-tech">Built with Javascript, Third-party APIs, HTML, CSS, Bootstrap, Pure.css</div>
                             </div>
                         </div>
                     </div>
