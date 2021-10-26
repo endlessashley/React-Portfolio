@@ -27,7 +27,7 @@ import {Link} from 'react-router-dom'
         </div>
         <div className="col-xs-12 col-sm-2">
           <li className = "nav-item">
-            <Link to = "/Portfolio">Portfolio</Link>
+            <Link to = "/portfolio">Portfolio</Link>
           </li>
         </div>
         </ul>

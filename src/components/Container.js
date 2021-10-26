@@ -1,4 +1,4 @@
-import React from 'react';   
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
@@ -10,36 +10,41 @@ import Footer from './pages/Footer';
 import Contact from './pages/Contact';
 
 export default function Container() {
-return (
-  <Router>
-            <div class="container-fluid">
-                <Header />
-                <NavTabs />
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route path ="/home">
-                      <Home />
-                    </Route>
-                    <Route path="/about">
-                        <About />
-                    </Route>
-                    <Route path="/portfolio">
-                        <Portfolio />
-                    </Route>
-                    <Route path="/contact">
-                        <Contact />
-                    </Route>
-                    <Route path="/resume">
-                      <Resume />
-                    </Route>
-                </Switch>
-                </div>
-                <div className="footer">
-                    <Footer />
-                </div>
-        </Router>
+    return (
+
+        <div className="stars">
+            <div className="twinkling">
+                <Router>
+                    <div className="container-fluid">
+                        <Header />
+                        <NavTabs />
+                        <Switch>
+                            <Route exact path="/">
+                                <Home />
+                            </Route>
+                            <Route path="/home">
+                                <Home />
+                            </Route>
+                            <Route path="/about">
+                                <About />
+                            </Route>
+                            <Route path="/portfolio">
+                                <Portfolio />
+                            </Route>
+                            <Route path="/contact">
+                                <Contact />
+                            </Route>
+                            <Route path="/resume">
+                                <Resume />
+                            </Route>
+                        </Switch>
+                    </div>
+                    <div className="footer">
+                        <Footer />
+                    </div>
+                </Router>
+            </div>
+        </div>
     );
 }
 
@@ -65,7 +70,7 @@ return (
 //     // }
 //     return <Contact />
 
-    
+
 //   };
 
 //   const handlePageChange = (page) => setCurrentPage(page);

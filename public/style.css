@@ -15,31 +15,36 @@ body {
 
 /* General elements */
 
+.container-fluid {
+    margin-bottom: 50px;
+}
+
 img {
     border-radius: 10px;
 }
 
 
 h1 {
-    font-size: 35vh;
+    font-size: 15vw;
     letter-spacing: -.06em;
 }
 
 
 h2 {
     float: right;
-    font-size:8vh;
+    font-size:5vw;
     color: #d4877a;
     text-align: left;
 }
 
 h3 {
-    font-size: 5vh;
+    font-size: 24pt;
     color: #d4877a;
 }
 
 a {
     color: #a5b0dd;
+    font-size: 24pt;
     text-decoration: none;
 }
 
@@ -49,7 +54,7 @@ a:hover {
   }
   
 p {
-    font-size: 3.5vh;
+    font-size: 16pt;
     color: #c2b1b6;
     margin: 20px;
     align-self: center;
@@ -63,10 +68,43 @@ ul {
     text-decoration: none;
 }
 
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100vw;
+  }
+
+  .col-sm-12 {
+    text-align: center;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+  /*navbar and footer styling*/
+
+  .nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    background-color: #a5b0dd;
+    opacity: 65%;
+    padding: 20px;
+    margin: 20px;
+}
+
 .nav-item {
-    /* background-color: black; */
     color: black;
-    font-size: 6vh;
+    font-size: 24pt;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -84,37 +122,14 @@ ul {
     color: white;
 }
 
-.nav-item:focus {
-    color: #d4877a;
-}
 
-.col-sm-12 {
-    text-align: center;
-}
 
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.container {
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-  width: 100vw;
-}
 
 /* header div styling */
 
 .header {
     margin: 30px;
     padding: 20px;
-    /* background-color: black; */
     color: #c2b1b6;
     clear: both;
     justify-content: space-between;
@@ -128,21 +143,9 @@ ul {
     margin: -25px;
 }
 
-/* Navbar and contact footer styling */
-
-.nav {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-    justify-content: space-around;
-    background-color: #a5b0dd;
-    opacity: 65%;
-    padding: 20px;
-    margin: 20px;
-}
 
 
-/* About Me styling */
+/* About styling */
 
 #headshot {
     /* margin: 10px; */
@@ -169,7 +172,6 @@ ul {
 #portfolio {  
     margin: 20px;
     padding: 20px;
-    /* background-color: black; */
     color: #d4877a;
     align-items: center;
     justify-content: space-between;
@@ -182,22 +184,14 @@ ul {
 .card-title {
     justify-content: center;
     text-align: center;
-    font-size: 5vh;
+    font-size: 16pt;
 }
 
 .card-text {
     margin: 5px;
-    font-size: 3.5vh;
+    font-size: 12pt;
     text-align: center;
     color: antiquewhite;
-}
-
-.card-text a {
-    color: #c2b1b6;
-}
-
-.card-text a:hover {
-    color:#d4877a;
 }
 
 .card-body {
@@ -205,44 +199,17 @@ ul {
     justify-content: center;
 }
 
-/* .card-body img {
-    min-height: 200px;
-    max-height: 200px;
-} */
-
-
-
-#portfolio-items {
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-/* Container needed to position the overlay. Adjust the width as needed */
 .container {
     position: relative;
     width: 100%;
     max-width: 400px;
   }
   
-  /* Make the image to responsive */
   .image {
     width: 100%;
     min-height: 250px;
     max-height: 250px;
   }
-
-
-
-
-
-
-
 
 .overlay {
     position: absolute;
@@ -258,15 +225,13 @@ ul {
     border-radius: 10px;
   }
   
-  /* When you mouse over the container, fade in the overlay icon*/
   .container:hover .overlay {
     opacity: .8;
   }
   
-  /* The icon inside the overlay is positioned in the middle vertically and horizontally */
   .contact-icon{
       color: black;
-      font-size: 10vh;
+      font-size: 24pt;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       text-align: center;
@@ -327,7 +292,7 @@ ul {
  
 
 
-
+/* contact */
 
   .form {
     margin: 20px;
@@ -343,29 +308,45 @@ ul {
 
 .submit-button {
     background-color: #d4877a;
-    font-size: 3vh;
+    font-size: 16pt;
 }
 
-.container-fluid {
-    margin-bottom: 50px;
+/*resume*/
+
+.svg-icon {
+    position: relative;
+
+    flex-shrink: 0;
+
+    height: 32pt;
+    width: 32pt;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: -18px;
+
+    fill: currentColor;
+
+   transition: fill .3s;
 }
 
+.resume-ul {
+    color: #c2b1b6;
+    font-size: 16pt;
+}
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding-top: 50px;
-  }
-
+.resume {
+    justify-content: center;
+}
 
 .skill-icon {
     color: #faebd7;
-    font-size: 8vh;
+    font-size: 32pt;
     margin: 10px;
 }
 
-
+/*background*/
 /* ============================================================================================== 
 SED Innovations
 https://sed.am
@@ -424,39 +405,3 @@ https://mkrtchyan.ga
       
 
 
-.svg-icon {
-    /* Place the icon on the text baseline. */
-    position: relative;
-    top: -.9em;
-
-    /* Prevent the icon from shrinking inside a flex container. */
-    flex-shrink: 0;
-
-    /* Scale the icon to match the font-size of the parent element. */
-    height: 8vh;
-    width: 8vh;
-
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-top: -18px;
-
-    /* Let the icon take whatever color the parent has. */
-    fill: currentColor;
-
-    /*
-     * If the icon is used on a link, which has a color transition,
-     * we can also use a transition on the fill value.
-    */
-   transition: fill .3s;
-}
-
-.resume-ul {
-    color: #c2b1b6;
-    font-size: 4vh;
-}
-
-.resume {
-    font-size: 5vh;
-    justify-content: center;
-}

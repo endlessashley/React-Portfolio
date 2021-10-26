@@ -64,7 +64,7 @@ export default function Portfolio() {
 
             <div className="col-xs-12 col-md-4">
                 <div className="card">
-                    <div class="card-title">Fitness Tracker</div>
+                    <div className="card-title">Fitness Tracker</div>
                     <div className="card-body">
                         <div className="container"><img src={projectPic3} className="image"
                                 alt="fitness tracker"></img>
@@ -85,8 +85,8 @@ export default function Portfolio() {
                 </div>
             </div>
 
-            <div class="col-xs-12 col-md-4">
-                <div class="card">
+            <div className="col-xs-12 col-md-4">
+                <div className="card">
                     <div className="card-title">CalenDon't</div>
                     <div className="card-body">
                         <div className="container"><img src={projectPic4} className="image"
