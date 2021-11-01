@@ -21,11 +21,11 @@ export default function Portfolio() {
                         <div className="container"><img src={projectPic1} className="image"
                                 alt="calendont"></img>
                             <div className="overlay">
-                                <a href="https://quiet-thicket-67024.herokuapp.com/" className="play-icon"
+                                <a target="_blank" href="https://quiet-thicket-67024.herokuapp.com/" className="play-icon"
                                     title="Heroku Deployment">
                                     <i className="fas fa-play-circle"></i>
                                 </a>
-                                <a href="https://github.com/endlessashley/Progressive-Budget" className="repo-icon"
+                                <a target="_blank" href="https://github.com/endlessashley/Progressive-Budget" className="repo-icon"
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
@@ -46,11 +46,11 @@ export default function Portfolio() {
                         <div className="container"><img src={projectPic2}className="image"
                                 alt="note-taker"></img>
                             <div className="overlay">
-                                <a href="https://cryptic-earth-47562.herokuapp.com/" className="play-icon"
+                                <a target="_blank" href="https://cryptic-earth-47562.herokuapp.com/" className="play-icon"
                                     title="Heroku Deployment">
                                     <i className="fas fa-play-circle"></i>
                                 </a>
-                                <a href="https://github.com/endlessashley/note-taker-2" className="repo-icon"
+                                <a target="_blank" href="https://github.com/endlessashley/note-taker-2" className="repo-icon"
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
@@ -69,11 +69,11 @@ export default function Portfolio() {
                         <div className="container"><img src={projectPic3} className="image"
                                 alt="fitness tracker"></img>
                             <div className="overlay">
-                                <a href="https://aqueous-anchorage-97607.herokuapp.com/?id=6162f654a05bf40016ecaa95" className="play-icon"
+                                <a target="_blank" href="https://aqueous-anchorage-97607.herokuapp.com/?id=6162f654a05bf40016ecaa95" className="play-icon"
                                     title="Heroku Deployment">
                                     <i className="fas fa-play-circle"></i>
                                 </a>
-                                <a href="https://github.com/endlessashley/fitness-tracker-2" className="repo-icon"
+                                <a target="_blank" href="https://github.com/endlessashley/fitness-tracker-2" className="repo-icon"
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
@@ -92,11 +92,11 @@ export default function Portfolio() {
                         <div className="container"><img src={projectPic4} className="image"
                                 alt="calendont"></img>
                             <div className="overlay">
-                                <a href="https://pacific-badlands-48977.herokuapp.com/login" className="play-icon"
+                                <a target="_blank" href="https://pacific-badlands-48977.herokuapp.com/login" className="play-icon"
                                     title="Heroku Deployment">
                                     <i className="fas fa-play-circle"></i>
                                 </a>
-                                <a href="https://github.com/endlessashley/CalenDont" className="repo-icon"
+                                <a target="_blank" href="https://github.com/endlessashley/CalenDont" className="repo-icon"
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
@@ -115,7 +115,7 @@ export default function Portfolio() {
                         <div className="container"><img src={projectPic5} className="image"
                                 alt="calendont"></img>
                             <div className="overlay">
-                                <a href="https://github.com/endlessashley/team-profile" className="repo-icon-no-deploy"
+                                <a target="_blank" href="https://github.com/endlessashley/team-profile" className="repo-icon-no-deploy"
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
@@ -134,11 +134,11 @@ export default function Portfolio() {
                         <div className="container"><img src={projectPic6} className="image"
                                 alt="shield"></img>
                             <div className="overlay">
-                                <a href="https://endlessashley.github.io/Shield-ID/" className="play-icon"
+                                <a target="_blank" href="https://endlessashley.github.io/Shield-ID/" className="play-icon"
                                     title="Github Deployment">
                                     <i className="fas fa-play-circle"></i>
                                 </a>
-                                <a href="https://github.com/endlessashley/Shield-ID/" className="repo-icon"
+                                <a target="_blank" href="https://github.com/endlessashley/Shield-ID/" className="repo-icon"
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>

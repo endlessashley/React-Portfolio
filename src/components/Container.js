@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
@@ -20,10 +20,10 @@ export default function Container() {
                         <NavTabs />
                         <Switch>
                             <Route exact path="/">
-                                <Home />
+                                <About />
                             </Route>
                             <Route path="/home">
-                                <Home />
+                                <About />
                             </Route>
                             <Route path="/about">
                                 <About />
