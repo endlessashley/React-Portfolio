@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/React-Portfolio/static/js/main.c56883f5.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.c56883f5.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.2fe7201d.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.2fe7201d.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.9fbd6762.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.9fbd6762.js.map",
     "static/js/2.fa3e5676.chunk.js": "/React-Portfolio/static/js/2.fa3e5676.chunk.js",
@@ -9,18 +9,19 @@
     "index.html": "/React-Portfolio/index.html",
     "static/js/2.fa3e5676.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.fa3e5676.chunk.js.LICENSE.txt",
     "static/media/budget-screenshot.044f337e.png": "/React-Portfolio/static/media/budget-screenshot.044f337e.png",
-    "static/media/calendont-screenshot.a4047fcf.png": "/React-Portfolio/static/media/calendont-screenshot.a4047fcf.png",
+    "static/media/developer-resume-1-5.b8baad73.pdf": "/React-Portfolio/static/media/developer-resume-1-5.b8baad73.pdf",
     "static/media/fitness-tracker-screenshot.fd13083c.png": "/React-Portfolio/static/media/fitness-tracker-screenshot.fd13083c.png",
     "static/media/handlebarsdotjs.09ad04ba.svg": "/React-Portfolio/static/media/handlebarsdotjs.09ad04ba.svg",
     "static/media/note-taker-screenshot.7a6c1994.png": "/React-Portfolio/static/media/note-taker-screenshot.7a6c1994.png",
     "static/media/portfolio-picture-921.9a1f4ac9.jpeg": "/React-Portfolio/static/media/portfolio-picture-921.9a1f4ac9.jpeg",
+    "static/media/reader-set-go-screenshot.4b0f32e6.png": "/React-Portfolio/static/media/reader-set-go-screenshot.4b0f32e6.png",
     "static/media/sequelize.13bca317.svg": "/React-Portfolio/static/media/sequelize.13bca317.svg",
-    "static/media/shield-screenshot.3d93f496.png": "/React-Portfolio/static/media/shield-screenshot.3d93f496.png",
+    "static/media/shield-screenshot-2.3d93f496.png": "/React-Portfolio/static/media/shield-screenshot-2.3d93f496.png",
     "static/media/team-profile-screenshot.d1d958f2.png": "/React-Portfolio/static/media/team-profile-screenshot.d1d958f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9fbd6762.js",
     "static/js/2.fa3e5676.chunk.js",
-    "static/js/main.c56883f5.chunk.js"
+    "static/js/main.2fe7201d.chunk.js"
   ]
 }
