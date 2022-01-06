@@ -3,9 +3,9 @@ import React from 'react';
 import projectPic1 from '../../images/budget-screenshot.png'
 import projectPic2 from '../../images/note-taker-screenshot.png'
 import projectPic3 from '../../images/fitness-tracker-screenshot.png'
-import projectPic4 from '../../images/calendont-screenshot.png'
+import projectPic4 from '../../images/reader-set-go-screenshot.png'
 import projectPic5 from '../../images/team-profile-screenshot.png'
-import projectPic6 from '../../images/shield-screenshot.png'
+import projectPic6 from '../../images/shield-screenshot-2.png'
 
 export default function Portfolio() {
   return (
@@ -87,24 +87,24 @@ export default function Portfolio() {
 
             <div className="col-xs-12 col-md-4">
                 <div className="card">
-                    <div className="card-title">CalenDon't</div>
+                    <div className="card-title">Reader Set GO!</div>
                     <div className="card-body">
                         <div className="container"><img src={projectPic4} className="image"
                                 alt="calendont"></img>
                             <div className="overlay">
-                                <a target="_blank" href="https://pacific-badlands-48977.herokuapp.com/login" className="play-icon"
+                                <a target="_blank" href="https://pure-dawn-95351.herokuapp.com/" className="play-icon"
                                     title="Heroku Deployment">
                                     <i className="fas fa-play-circle"></i>
                                 </a>
-                                <a target="_blank" href="https://github.com/endlessashley/CalenDont" className="repo-icon"
+                                <a target="_blank" href="https://github.com/endlessashley/reader-set-go-clean" className="repo-icon"
                                     title="Github Repository">
                                     <i className="far fa-folder-open"></i>
                                 </a>
-                                <div className="used-tech">Built with Javascript, MySQL, Sequelize, Express.js, Handlebars, HTML, CSS, Bootstrap</div>
+                                <div className="used-tech">Built with React, JavaScript, MongoDB/Mongoose, GraphQL, Apollo, Bootstrap, CSS, HTML, JSX</div>
                             </div>
                         </div>
                     </div>
-                    <div className="card-text">The anti-social social calendar, CalenDon't lets you schedule plans with friends, and if BOTH of you secretly opt to cancel, your plans are off guilt-free</div>
+                    <div className="card-text">A challenge to read the top 100 books across 5 genres. Track your progress, view your score, and generate book recommendations</div>
                 </div>
             </div>
 
@@ -146,7 +146,8 @@ export default function Portfolio() {
                             </div>
                         </div>
                     </div>
-                    <div className="card-text">Search a database of Marvel superheroes to get character info and GIFs</div>
+                    <div className="card-text">Search a database of Marvel superheroes to get character info and GIFs<br />
+                        <span style = {{color: "red"}}>Please click <a href="https://cors-anywhere.herokuapp.com/corsdemo" style={{fontSize: "12pt"}}>this CORS link</a> before visiting the site</span></div>
                 </div>
             </div>
         </div>

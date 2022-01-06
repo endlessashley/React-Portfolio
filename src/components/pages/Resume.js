@@ -7,6 +7,7 @@ import {SiJquery, SiGraphql,  } from "react-icons/si"
 import {DiMongodb, DiMysql} from "react-icons/di"
 import sequelizeIcon from '../../images/sequelize.svg'
 import handlebarsIcon from '../../images/handlebarsdotjs.svg'
+import resume from '../../images/developer-resume-1-5.pdf'
 
 export default function Resume(){
     return(
@@ -91,7 +92,7 @@ export default function Resume(){
             <div className="container-fluid">
             <div className="row justify-content-center align-top">
             <div className="col-lg text-center resume">
-            <a href="../../images/developerresume921.pdf">View Full Resume</a>
+            <a href={resume} target="blank">View Full Resume</a>
             </div>
 </div>
 </div>

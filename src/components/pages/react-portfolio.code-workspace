@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "React-Portfolio",
+			"path": "../../../../React-Portfolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React-Portfolio",
+		"search.exclude": {
+			"**/node_modules": false
+		}
+	}
+}

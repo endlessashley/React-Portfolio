@@ -22,19 +22,19 @@ export default function Container() {
                             <Route exact path="/">
                                 <About />
                             </Route>
-                            <Route path="/home">
+                            <Route exact path="/home">
                                 <About />
                             </Route>
-                            <Route path="/about">
+                            <Route exact path="/about">
                                 <About />
                             </Route>
-                            <Route path="/portfolio">
+                            <Route exact path="/portfolio">
                                 <Portfolio />
                             </Route>
-                            <Route path="/contact">
+                            <Route exact path="/contact">
                                 <Contact />
                             </Route>
-                            <Route path="/resume">
+                            <Route exact path="/resume">
                                 <Resume />
                             </Route>
                         </Switch>

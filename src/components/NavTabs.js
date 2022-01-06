@@ -15,11 +15,7 @@ import {Link} from 'react-router-dom'
             <Link to = "/about">About</Link>
           </li>
         </div>
-        <div className="col-xs-12 col-sm-2">
-          <li className="nav-item">
-            <Link to = "/contact">Contact</Link>
-          </li>
-        </div>
+
         <div className="col-xs-12 col-sm-2">
           <li className="nav-item">
             <Link to = "/resume">Resume</Link>
